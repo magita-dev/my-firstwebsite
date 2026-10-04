@@ -1,0 +1,6 @@
+{
+  "name": "Holiday in New York — 3D Times Square & Package Booking",
+  "description": "An immersive NYC holiday travel platform featuring a 3D 360° Times Square panoramic explorer with interactive hotspots, multi-step package booking, and downloadable PDF tickets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

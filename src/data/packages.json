@@ -1,0 +1,236 @@
+[
+  {
+    "id": "broadway-magic",
+    "name": "Broadway Holiday Magic & Times Square VIP",
+    "tagline": "World-Class Theater & Neon Nights",
+    "category": "Festive Broadway",
+    "price": 549,
+    "originalPrice": 699,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.95,
+    "reviewCount": 184,
+    "featured": true,
+    "badge": "Bestseller",
+    "image": "https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=1200&q=80",
+    "imageCredit": {
+      "photographer": "Denys Nevozhai",
+      "source": "Unsplash",
+      "url": "https://unsplash.com/photos/7nrsVjvALnA"
+    },
+    "hotspot": {
+      "id": "hotspot-broadway",
+      "title": "Broadway Theater District",
+      "yaw": -35,
+      "pitch": 8,
+      "distance": 450
+    },
+    "description": "Immerse yourself in the electric vibrancy of Times Square during the holiday season. Enjoy prime orchestra seating at a critically acclaimed Broadway production, an insider backstage history tour, and fine dining at historic Sardi's.",
+    "highlights": [
+      "Prime Orchestra ticket to top Broadway holiday production",
+      "Guided Times Square & Theater District walking history tour",
+      "Pre-theater 3-course dinner with sommelier pairing",
+      "Exclusive souvenir Broadway Playbill & holiday gift bag"
+    ],
+    "includedAmenities": [
+      "Dedicated concierge support",
+      "Flexible show date selection",
+      "Digital mobile pass with instant check-in",
+      "Complimentary cloakroom & welcome beverage"
+    ]
+  },
+  {
+    "id": "rockefeller-christmas",
+    "name": "Rockefeller Center Tree & Ice Skating Gala",
+    "tagline": "The Quintessential NYC Holiday Tradition",
+    "category": "Iconic Landmarks",
+    "price": 680,
+    "originalPrice": 850,
+    "duration": "5 Days / 4 Nights",
+    "rating": 4.98,
+    "reviewCount": 242,
+    "featured": true,
+    "badge": "Holiday Special",
+    "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1200&q=80",
+    "imageCredit": {
+      "photographer": "Michael Discenza",
+      "source": "Unsplash",
+      "url": "https://unsplash.com/photos/MxfcoxycH_Y"
+    },
+    "hotspot": {
+      "id": "hotspot-rockefeller",
+      "title": "Rockefeller Center & 5th Ave",
+      "yaw": 42,
+      "pitch": 5,
+      "distance": 450
+    },
+    "description": "Step into the postcard holiday dream of Manhattan. Glide across the ice under the world-renowned 80-foot Rockefeller Center Christmas Tree with VIP VIP fast-track access, followed by sunset views from Top of the Rock.",
+    "highlights": [
+      "VIP Ice Rink access + private heated warming tent with refreshments",
+      "Top of the Rock observation deck priority sunset ticket",
+      "Fifth Avenue holiday window walking tour led by architecture historian",
+      "Gourmet hot chocolate and Belgian waffle tasting session"
+    ],
+    "includedAmenities": [
+      "Skate rental & lockers included",
+      "Priority elevator access at 30 Rock",
+      "Official Rockefeller holiday ornament keepsake",
+      "24/7 travel concierge hotline"
+    ]
+  },
+  {
+    "id": "central-park-winter",
+    "name": "Central Park Winter Carriage & Romance",
+    "tagline": "Snowy Paths & Timeless Elegance",
+    "category": "Romantic Winter",
+    "price": 495,
+    "originalPrice": 620,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.92,
+    "reviewCount": 136,
+    "featured": false,
+    "badge": "Couples Choice",
+    "image": "https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=1200&q=80",
+    "imageCredit": {
+      "photographer": "Jermaine Ee",
+      "source": "Unsplash",
+      "url": "https://unsplash.com/photos/g39p1kDjvSY"
+    },
+    "hotspot": {
+      "id": "hotspot-centralpark",
+      "title": "Central Park Winter Gateway",
+      "yaw": 12,
+      "pitch": 18,
+      "distance": 450
+    },
+    "description": "Wrap up in cozy fleece blankets for a private horse-drawn carriage ride through snow-blanketed Central Park paths, passing Bow Bridge and Bethesda Fountain, followed by dinner at historic Tavern on the Green.",
+    "highlights": [
+      "Private 50-minute horse-drawn carriage ride through Central Park",
+      "Wollman Rink VIP admission overlooking Manhattan skyline",
+      "Fireside romantic dinner at historic Tavern on the Green",
+      "Professional 20-minute couple/portrait photo session with digital gallery"
+    ],
+    "includedAmenities": [
+      "Heated carriage blankets & hot spiced apple cider",
+      "Complimentary high-res edited digital photos",
+      "All park permits & gratuities included",
+      "Flexible weather rescheduling guarantee"
+    ]
+  },
+  {
+    "id": "statue-liberty-cruise",
+    "name": "Statue of Liberty Holiday Harbor Cruise",
+    "tagline": "Harbor Lights, Champagne & Lady Liberty",
+    "category": "Iconic Landmarks",
+    "price": 389,
+    "originalPrice": 480,
+    "duration": "3 Days / 2 Nights",
+    "rating": 4.88,
+    "reviewCount": 98,
+    "featured": false,
+    "badge": "Popular",
+    "image": "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?auto=format&fit=crop&w=1200&q=80",
+    "imageCredit": {
+      "photographer": "Anthony Fomin",
+      "source": "Unsplash",
+      "url": "https://unsplash.com/photos/yZOm4JvJ7J8"
+    },
+    "hotspot": {
+      "id": "hotspot-liberty",
+      "title": "Statue of Liberty & Harbor",
+      "yaw": -125,
+      "pitch": -8,
+      "distance": 450
+    },
+    "description": "Embark on an unforgettable holiday harbor voyage aboard a glass-enclosed, climate-controlled yacht. Take in breathtaking skyline vistas of Lower Manhattan and glide right up to the illuminated Statue of Liberty.",
+    "highlights": [
+      "2.5-hour evening cruise aboard luxury glass-atrium yacht",
+      "Live acoustic holiday jazz trio performance throughout the cruise",
+      "Chilled champagne welcome toast and artisanal canapé selection",
+      "Unobstructed photo opportunities within 100 feet of Lady Liberty"
+    ],
+    "includedAmenities": [
+      "Heated interior salon and outdoor observation decks",
+      "Full premium open bar options available",
+      "Coast Guard certified vessel with VIP boarding",
+      "Commemorative boarding photograph"
+    ]
+  },
+  {
+    "id": "empire-state-holiday",
+    "name": "Empire State Building & Holiday Skyline",
+    "tagline": "Sky-High Views in Festive Red & Green",
+    "category": "Iconic Landmarks",
+    "price": 420,
+    "originalPrice": 530,
+    "duration": "4 Days / 3 Nights",
+    "rating": 4.91,
+    "reviewCount": 164,
+    "featured": false,
+    "badge": "City Views",
+    "image": "https://images.unsplash.com/photo-1546436836-07a91091f160?auto=format&fit=crop&w=1200&q=80",
+    "imageCredit": {
+      "photographer": "Kit Suman",
+      "source": "Unsplash",
+      "url": "https://unsplash.com/photos/4hMET7vYTAQ"
+    },
+    "hotspot": {
+      "id": "hotspot-empire",
+      "title": "Empire State Building",
+      "yaw": 88,
+      "pitch": 24,
+      "distance": 450
+    },
+    "description": "Ascend the legendary Art Deco tower as it lights up the winter sky in festive seasonal hues. Bypass the queues with VIP Express passes to both the 86th floor open-air deck and the newly redesigned 102nd floor glass observatory.",
+    "highlights": [
+      "VIP Express skip-the-line entry to 86th & 102nd Floor observatories",
+      "Private audio-visual museum tour of 1930s Art Deco construction",
+      "Signature rooftop cocktail at STATE Grill and Bar on ground level",
+      "Spectacular 360-degree views of illuminated Manhattan skyscrapers"
+    ],
+    "includedAmenities": [
+      "Priority elevator boarding at all tiers",
+      "High-power binoculars access included",
+      "Official Empire State Building certificate & lanyard",
+      "Weather date flexibility"
+    ]
+  },
+  {
+    "id": "manhattan-family-fun",
+    "name": "NYC Holiday Family Extravaganza",
+    "tagline": "Radio City Rockettes & Winter Wonderland",
+    "category": "Family Holiday",
+    "price": 1199,
+    "originalPrice": 1499,
+    "duration": "6 Days / 5 Nights",
+    "rating": 4.97,
+    "reviewCount": 215,
+    "featured": true,
+    "badge": "Family Favorite",
+    "image": "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1200&q=80",
+    "imageCredit": {
+      "photographer": "Aleksandar Pasaric",
+      "source": "Pexels",
+      "url": "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg"
+    },
+    "hotspot": {
+      "id": "hotspot-bryantpark",
+      "title": "Bryant Park Winter Village",
+      "yaw": 165,
+      "pitch": -2,
+      "distance": 450
+    },
+    "description": "Curated specially for families seeking holiday wonder. Includes premium tickets to the Radio City Christmas Spectacular starring the Rockettes, reserved igloo at Bryant Park Winter Village, and toy flagship store VIP access.",
+    "highlights": [
+      "Family tier seating at Radio City Music Hall Christmas Spectacular",
+      "Reserved heated transparent igloo at Bryant Park Winter Village",
+      "VIP private entrance pass to FAO Schwarz flagship toy store",
+      "48-hour Hop-On Hop-Off festive double decker bus pass"
+    ],
+    "includedAmenities": [
+      "Covers up to 2 Adults + 2 Children (extra guests addable)",
+      "Kids holiday activity pack & souvenir Santa hats",
+      "Free skate rental at Bryant Park Ice Rink",
+      "Hot cider & churros family basket"
+    ]
+  }
+]

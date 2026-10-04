@@ -1,0 +1,127 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile and authentication login record",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Authentication User ID",
+          "maxLength": 128
+        },
+        "email": {
+          "type": "string",
+          "description": "User email address",
+          "maxLength": 256
+        },
+        "displayName": {
+          "type": "string",
+          "description": "User display name",
+          "maxLength": 128
+        },
+        "photoURL": {
+          "type": "string",
+          "description": "User avatar photo URL",
+          "maxLength": 1024
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Account registration timestamp",
+          "maxLength": 64
+        },
+        "lastLoginAt": {
+          "type": "string",
+          "description": "Last sign-in timestamp",
+          "maxLength": 64
+        }
+      },
+      "required": ["uid", "email"]
+    },
+    "Booking": {
+      "title": "Booking",
+      "description": "Confirmed holiday travel package reservation",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique booking reference ID",
+          "maxLength": 64
+        },
+        "userId": {
+          "type": "string",
+          "description": "Owner user UID",
+          "maxLength": 128
+        },
+        "packageId": {
+          "type": "string",
+          "description": "Package identifier",
+          "maxLength": 64
+        },
+        "packageName": {
+          "type": "string",
+          "description": "Holiday package name",
+          "maxLength": 128
+        },
+        "startDate": {
+          "type": "string",
+          "description": "Check-in arrival date",
+          "maxLength": 32
+        },
+        "endDate": {
+          "type": "string",
+          "description": "Check-out departure date",
+          "maxLength": 32
+        },
+        "adults": {
+          "type": "number",
+          "description": "Number of adult guests"
+        },
+        "children": {
+          "type": "number",
+          "description": "Number of child guests"
+        },
+        "grandTotal": {
+          "type": "number",
+          "description": "Total price in USD"
+        },
+        "leadName": {
+          "type": "string",
+          "description": "Lead guest name",
+          "maxLength": 128
+        },
+        "email": {
+          "type": "string",
+          "description": "Contact email",
+          "maxLength": 256
+        },
+        "phone": {
+          "type": "string",
+          "description": "Contact phone number",
+          "maxLength": 64
+        },
+        "status": {
+          "type": "string",
+          "description": "Booking status",
+          "enum": ["Confirmed", "Completed", "Cancelled"]
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Booking creation timestamp",
+          "maxLength": 64
+        }
+      },
+      "required": ["id", "userId", "packageId", "packageName", "startDate", "endDate", "adults", "grandTotal", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User login information and profile document"
+    },
+    "/users/{userId}/bookings/{bookingId}": {
+      "schema": "Booking",
+      "description": "User confirmed reservations and holiday passes"
+    }
+  }
+}
